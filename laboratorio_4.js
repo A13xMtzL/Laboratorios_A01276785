@@ -90,6 +90,7 @@ function Llamada_Contador(){
 
 
 function Inverso(){
+  var numero_normal;
 
 }
 
