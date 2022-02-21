@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Laboratorio_1</title>
 </head>
 
@@ -28,7 +29,7 @@
 
     <section id="Pregunta_1">
       <h3>¿Cuál es la diferencia entre Internet y la World Wide Web?</h3>
-      <p>
+      <p class="txt">
         Podemos definir a <b>Internet</b> como la red de computadoras conectadas en las que funciona la web, a través de
         estas viajan los archivos que usamos diariamente. <br><br>
         Por su parte la <b>World Wibe Web</b> (también conocida como WWW) es un sistema interconectado de páginas web
@@ -38,9 +39,9 @@
 
     <section id="Pregunta_2">
       <h3>¿Cuáles son las partes de un URL?</h3>
-      <p>
+      <p class="txt">
         Una URL cuenta con diferentes partes, las cuales son:
-      <ul>
+      <ul class="lista">
         <li><b>El Protocolo:</b> En su mayoría HTTP, sirve para transferir información entre diferentes actores en
           Internet</li>
 
@@ -65,7 +66,7 @@
 
     <section id="Pregunta_3">
       <h3>¿Cuál es el propósito de los métodos HTTP: GET, HEAD, POST, PUT, PATCH, DELETE?</h3>
-      <p>
+      <p class="txt">
         <b>GET:</b> Se emplea para solicitar datos de un recurso específico, los datos no se modifican. <br>
         <b>HEAD:</b> Se solicitan datos solo del encabezado, no se toma en cuenta el cuerpo del archivo <br>
         <b>POST:</b> Se emplea para poder enviar datos a un servidor y así crear un recurso. <br>
@@ -80,7 +81,7 @@
     <section id="Pregunta_4">
       <h3>¿Qué método HTTP se debe utilizar al enviar un formulario HTML, por ejemplo, cuando ingresas tu usuario y
         contraseña en algún sitio? ¿Por qué?</h3>
-      <p>
+      <p class="txt">
         Debido a que en esta consulta se pretende hacer envió de información y tomando en cuenta que es un primer
         registro para poder ingresar a la página web, se debería de usar el método <strong>POST</strong>.
       </p>
@@ -90,7 +91,7 @@
     <section id="Pregunta_5">
       <h3>¿Qué método HTTP se utiliza cuando a través de un navegador web se accede a una página a través de un URL?
       </h3>
-      <p>
+      <p class="txt">
         Al realizar esta consulta se esper poder recuperar la información del sitio web, por lo que sería necesario un
         método <strong>GET</strong>.
       </p>
@@ -99,7 +100,7 @@
 
     <section id="Pregunta_6">
       <h3>Un servidor web devuelve una respuesta HTTP con código 200. ¿Qué significa esto? ¿Ocurrió algún error?</h3>
-      <p>
+      <p class="txt">
         Este código generalmente es usado en respuesta a un servidor HTTP y significa que la petición fue correcta y se
         respondió sin problemas.
       </p>
@@ -108,7 +109,7 @@
     <section id="Pregunta_7">
       <h3>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio
         y se encontró con un error 404? ¿Por qué?</h3>
-      <p>
+      <p class="txt">
         Debería ser responsabilidad del desarrollador corregir esto si es que el enlace por el que intentó acceder el
         usuario es un enlace que el mismo sitio web proporciona, ya que nos estaría dando a entender que el enlace está
         roto. <br> <br>
@@ -121,7 +122,7 @@
     <section id="Pregunta_8">
       <h3>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio
         y se encontró con un error 500? ¿Por qué?</h3>
-      <p>
+      <p class="txt">
         Cuando se genera un código de error 500 significa que el servidor encontró una condición inesperada que le
         impide completar la petición. <br> <br>
         En este caso si es la responsabilidad del desarrollador corregir el problema, ya que significa que existe un
@@ -133,12 +134,12 @@
     <section id="Pregunta_9">
       <h3>¿Qué significa que un atributo HTML5 esté depreciado o desaprobado (deprecated)? Menciona algunos elementos de
         HTML 4 que en HTML5 estén desaprobados.</h3>
-      <p>
+      <p class="txt">
         Cuando existe un atributo desaprobado quiere decir que es un atributo que se considera obsoleto esto debido a
         que hay nuevas y mejores estructuras que pueden ser usadas en su lugar-
         Algunos ejemplos son:
 
-      <ul>
+      <ul class="lista">
         <li><b>menu:</b> Reemplazado por el tag HTML ul.</li>
         <li><b>dir:</b> Atributo remplazado por el tag HTML ul</li>
         <li><b>applet:</b> Reemplazado por el tag HTML object.</li>
@@ -153,7 +154,7 @@
 
     <section id="Pregunta_10">
       <h3>¿Cuáles son las diferencias principales entre HTML 4 y HTML5?</h3>
-      <p>
+      <p class="txt">
         Cuando se empleaba HTML4 se necesitaban tecnologías como flash o actionscript para poder trabajar con vectores,
         gráficos o imágenes. <br>
         <br>Por su parte HTML5 es capaz de manejar todos estos recuros debido a que el mismo estándar lo permite, de
@@ -165,9 +166,9 @@
 
     <section id="Pregunta_11">
       <h3>¿Qué componentes de estructura y estilo tiene una tabla?</h3>
-      <p>
+      <p class="txt">
 
-      <ul>
+      <ul class="lista">
         <li>Para modificar la leyenda: caption</li>
         <li>Para modificar el encabezado: thead</li>
         <li>Para modificar el cuerpo de la tabla: tbody</li>
@@ -182,7 +183,7 @@
 
     <section id="Pregunta_12">
       <h3>¿Cuáles son los principales controles de una forma HTML5?</h3>
-      <p>
+      <p class="txt">
         Existen diferentes tipos de entrada como lo pueden ser: botones, campos de texto, casillas de verificación,
         casillas para ingresar contraseñas, imágenes, radios, submit y text.
       </p>
@@ -190,106 +191,197 @@
 
     <section id="Pregunta_13">
       <h3>¿Qué tanto soporte HTML5 tiene el navegador que utilizas? </h3>
-      <p>
-        Navegador Chrome: 476/555 puntos <br>
-        Navegador Firefox: 467/555 puntos
+      <p class="txt">
+        <strong>Navegador Chrome:</strong> 476/555 puntos <br>
+        <strong>Navegador Firefox:</strong> 467/555 puntos
       </p>
     </section>
 
-    <hr>
-    <h2>Sobre el ciclo de vida y desarrollo de los sistemas de información:</h2>
+    <div id="Ciclo_Fuentes">
+      <hr>
+      <article class="Ciclo_Vida">
+        <h2 style="text-align:center">Sobre el ciclo de vida y desarrollo de los sistemas de información:</h2>
+      </article>
+
+      <section id="Pregunta_14">
+        <h3>¿Cuál es el ciclo de vida de los sistemas de información? </h3>
+        <p class="txt">
+        <ol class="lista">
+          <li>Nacimiento</li>
+          <li>Desarrollo</li>
+          <li>Operación</li>
+          <li>Mantenimiento</li>
+          <li>Muerte</li>
 
 
-    <section id="Pregunta_14">
-      <h3>¿Cuál es el ciclo de vida de los sistemas de información? </h3>
-      <p>
-      <ol>
-        <li>Nacimiento</li>
-        <li>Desarrollo</li>
-        <li>Operación</li>
-        <li>Mantenimiento</li>
-        <li>Muerte</li>
+        </ol>
+        </p>
+      </section>
 
 
-      </ol>
+
+      <section id="Pregunta_15">
+        <h3>¿Cuál es el ciclo de desarrollo de sistemas de información?</h3>
+
+        <p class="txt">
+        <ol class="lista">
+          <li>Fase de planificacion.</li>
+          <li>Fase de analisis</li>
+          <li>Fase de diseno</li>
+          <li>Fase de desarrollo</li>
+          <li>Fase de integracion y periodo de pruebas</li>
+          <li>Fase de implementacion</li>
+        </ol>
+
+        </p>
+      </section>
+      <hr>
+
+
+
+
+
+
+    </div>
+
+    <br>
+
+    <div id="Preguntas_CSs">
+
+      <h1>Preguntas Laboratorio 3: CSS</h1>
+      <section>
+        <h3>Como ingeniero de software ¿cuál es tu recomendación sobre el uso de <b><i>!important</i></b> en un CSS?
+        </h3>
+        <p class="txt">
+          Podemos definir a <b>Internet</b> como la red de computadoras conectadas en las que funciona la web, a través
+          de
+          estas viajan los archivos que usamos diariamente. <br><br>
+          Por su parte la <b>World Wibe Web</b> (también conocida como WWW) es un sistema interconectado de páginas web
+          públicas que son accesibles a través de Internet.
+        </p>
+      </section>
+
+      <section>
+        <h3>Si se pone una imagen de fondo en una página HTML, ¿por qué debe escogerse con cuidado?</h3>
+        <p class="txt">
+          Debería ser una imagen que no presentará colores que pudieran hacer que el texto de nuestra página se pierda,
+          de igual forma debería ser una imagen que no sature los demás elementos del sitio web.
+        </p>
+      </section>
+
+      <section>
+        <h3>Como ingeniero de software, ¿cuál es tu recomendación al elegir las unidades de una propiedad de estilo
+          entre %, px y pt?</h3>
+        <p class="txt">
+          Dependerá mucho de lo que estemos haciendo o de lo que queramos realizar, por ejemplo, se pueden usar la
+          propiedad de estilo <b>pt</b> si tenemos pensado que nuestro diseño pueda ser impreso, estas unidades son de
+          tamaño fijo y no pueden escalarse en tamaño. <br><br>
+
+          Cuando usamos <b>porcentaje (%)</b>el texto que estemos usando será completamente escalable, esto es
+          beneficioso si se accede a nuestro sitio a través de dispositivos móviles. <br> <br>
+
+          Por último, los <b>píxeles</b> son unidades de tamaño fijo que se utilizan en los medios de pantalla, como la
+          pantalla de la computadora. Presenta una buena representación a través de navegadores, sin embargo no es
+          escalable para móviles.
+
+        </p>
+      </section>
+
+      <section>
+        <h3>¿Por qué el uso de una versión minimizada del CSS mejora el rendimiento del sitio?</h3>
+        <p class="txt">
+          Siempre será mejor poder contar con una versión minimizada de un archivo, esto permite que el tamaño del
+          archivo sea más ligero y por ende, la carga del mismo será más rápida, permitiendo así que el sitio cargue y
+          responda con una mayor velocidad.
+        </p>
+      </section>
+
+    </div>
+    <hr> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="Fuentes">
+      <h2>Fuentes Consultadas:</h2>
+
+      <p class="txt">
+      <ul class="lista_fuentes">
+        <li> 500 Error Interno del Servidor - HTTP | MDN. (2022, 19 febrero). DeveloperMozilla.Org. Recuperado 17 de
+          febrero de 2022, de <a
+            href="https://developer.mozilla.org/es/docs/Web/HTTP/Status/500">DeveloperMozilla</a><br>
+        </li>
+        <li>
+          BBC.CO. (2019, 11 marzo). What’s the difference between the internet and the world wide web? - CBBC Newsround.
+          BBC. Recuperado 17 de febrero de 2022, de <a href="https://www.bbc.co.uk/newsround/47523993#:%7E:text=The%20world%20wide%20web%2C%20or,emails%20and%20files%20travel%20across.&text=The%20world%20wide%20web%20contains,roads%20like%20houses%20and%20shops.
+            ">CBBC Newsround</a>
+        </li>
+
+        <li>
+          Delgado, H. (2021, 8 junio). La regla !important en CSS. Diseño Web akus.net. Recuperado 18 de febrero de
+          2022, de <a href="https://disenowebakus.net/la-regla-important-en-css.php">Diseño Web akus.net</a><br>
+
+        </li>
+
+        <li>
+          Diferencias con HTML4 - html5. (s. f.). HTML5. Recuperado 16 de febrero de 2022, de
+          <a href="https://sites.google.com/site/html5nuevasfunciones/home/diferencias-con-html4">HTML5</a><br>
+
+        </li>
+
+        <li>
+          KYLE. (2008, 30 septiembre). CSS Font-Size: em vs. px vs. pt vs. percent / Kyle Schaeffer. Kyle Schaeffer.
+          Recuperado 18 de febrero de 2022, de <a
+            href="https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent">Kyle Schaeffer</a><br>
+
+        </li>
+        <li>
+          Lorenzo, J. A. (2021, 7 noviembre). Error 404 Not Found: Causas y soluciones de este fallo. RedesZone.
+          Recuperado 16 de febrero de 2022, de
+          <a href="https://www.redeszone.net/tutoriales/redes-cable/error-404-not-found-solucion/">RedesZone</a><br>
+        </li>
+
+        <li>
+          Naranjo, M. (2017, 7 abril). Ciclo de vida de un sistema de informacion. SlideShare. Recuperado 17 de febrero
+          de
+          2022, de <a href="https://es.slideshare.net/MonicaNaranjo20/ciclo-de-vida-de-un-sistema-de-informacion-93192099#:%7E:text=Las%20fases%20que%20incluye%20son,%2C%20operaci%C3%B3n%2C%20mantenimiento%20y%20muerte.
+            ">SlideShare</a><br>
+        </li>
+
+        <li>
+          PowerData. (2019, 6 junio). Ciclo de vida de un sistema de información: fases y componentes. Recuperado 16 de
+          febrero de 2022, de <a
+            href="https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/ciclo-de-vida-de-un-sistema-de-informacion-fases-y-componentes">PowerData</a><br>
+
+        </li>
+
+        <li>
+          Pukocz, E. (2019, 3 noviembre). Partes de una URL con ejemplos y explicación. EP. Recuperado 9 de febrero de
+          2022, de <a href="https://edytapukocz.com/url-partes-ejemplos-facil/">EP</a><br>
+        </li>
+
+        <li>
+          Todo HTML. (s. f.). 05.Tags y atributos desaprobados en HTML - TODO HTML. TodoHTML. Recuperado 17 de febrero
+          de
+          2022, de <a href="https://sites.google.com/site/dwebhtml/reference/deprecated">TodoHTML</a><br>
+        </li>
+      </ul>
+
       </p>
-    </section>
-
-
-
-    <section id="Pregunta_15">
-      <h3>¿Cuál es el ciclo de desarrollo de sistemas de información?</h3>
-
-      <p>
-      <ol>
-        <li>Fase de planificacion.</li>
-        <li>Fase de analisis</li>
-        <li>Fase de diseno</li>
-        <li>Fase de desarrollo</li>
-        <li>Fase de integracion y periodo de pruebas</li>
-        <li>Fase de implementacion</li>
-      </ol>
-
-      </p>
-    </section>
-    <hr>
-
-
-    <h2>Fuentes Consultadas:</h2>
-
-    <p>
-    <ul>
-      <li> 500 Error Interno del Servidor - HTTP | MDN. (2022, 19 febrero). DeveloperMozilla.Org. Recuperado 17 de
-        febrero de 2022, de <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Status/500">DeveloperMozilla</a><br>
-      </li>
-      <li>
-        BBC.CO. (2019, 11 marzo). What’s the difference between the internet and the world wide web? - CBBC Newsround.
-        BBC. Recuperado 17 de febrero de 2022, de <a href="https://www.bbc.co.uk/newsround/47523993#:%7E:text=The%20world%20wide%20web%2C%20or,emails%20and%20files%20travel%20across.&text=The%20world%20wide%20web%20contains,roads%20like%20houses%20and%20shops.
-        ">CBBC Newsround</a>
-      </li>
-
-      <li>
-        Diferencias con HTML4 - html5. (s. f.). HTML5. Recuperado 16 de febrero de 2022, de
-        <a href="https://sites.google.com/site/html5nuevasfunciones/home/diferencias-con-html4">HTML5</a><br>
-
-      </li>
-
-      <li>
-        Lorenzo, J. A. (2021, 7 noviembre). Error 404 Not Found: Causas y soluciones de este fallo. RedesZone.
-        Recuperado 16 de febrero de 2022, de
-        <a href="https://www.redeszone.net/tutoriales/redes-cable/error-404-not-found-solucion/">RedesZone</a><br>
-      </li>
-
-      <li>
-        Naranjo, M. (2017, 7 abril). Ciclo de vida de un sistema de informacion. SlideShare. Recuperado 17 de febrero de
-        2022, de <a href="https://es.slideshare.net/MonicaNaranjo20/ciclo-de-vida-de-un-sistema-de-informacion-93192099#:%7E:text=Las%20fases%20que%20incluye%20son,%2C%20operaci%C3%B3n%2C%20mantenimiento%20y%20muerte.
-        ">SlideShare</a><br>
-      </li>
-
-      <li>
-        PowerData. (2019, 6 junio). Ciclo de vida de un sistema de información: fases y componentes. Recuperado 16 de
-        febrero de 2022, de <a
-          href="https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/ciclo-de-vida-de-un-sistema-de-informacion-fases-y-componentes">PowerData</a><br>
-
-      </li>
-
-      <li>
-        Pukocz, E. (2019, 3 noviembre). Partes de una URL con ejemplos y explicación. EP. Recuperado 9 de febrero de
-        2022, de <a href="https://edytapukocz.com/url-partes-ejemplos-facil/">EP</a><br>
-      </li>
-
-      <li>
-        Todo HTML. (s. f.). 05.Tags y atributos desaprobados en HTML - TODO HTML. TodoHTML. Recuperado 17 de febrero de
-        2022, de <a href="https://sites.google.com/site/dwebhtml/reference/deprecated">TodoHTML</a><br>
-      </li>
-    </ul>
-
-    </p>
+    </div>
 
 
 
     <h3>Página creada en:</h3>
-    <p>
+    <p class="txt">
 
       <img src="https://media.vlpt.us/images/rushbear/post/d47fd161-214d-4350-87c4-e1629c9ea807/vscode_image.png"
         alt="Visual Studio Logo" , width="250 px"> <br>
