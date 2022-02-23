@@ -15,9 +15,11 @@ function tabla_cuadrados_cubos() {
   }
   resultado += "</table>";
 
+  
   document.write(resultado); 
 
 }
+  // document.getElementById("P_1").onclick = tabla_cuadrados_cubos;
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function suma_numeros(){
@@ -87,19 +89,22 @@ function Llamada_Contador(){
 }
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
 function Inverso(){
-  var numero_normal;
+  let numero_normal =[];
+  numero_normal= prompt("Digite un numero que sea mayor a un digito, se obtendran sus digitos en orden inverso: ");
+  let numero_inverso=[];
 
+  console.log(numero_normal);
+
+  for (let i in numero_normal){
+
+    numero_inverso.unshift(numero_normal[i]);
+  }
+  alert("El numero ingresado fue: "+numero_normal
+  +"\n\nEl numero inverso es: "+ numero_inverso.join(""));
 }
 
-
-function Llamada_Inverso(){
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-  
-}
