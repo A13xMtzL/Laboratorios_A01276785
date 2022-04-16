@@ -1,0 +1,22 @@
+<%- include ('includes/head.ejs') %>
+
+   <body>
+      <div class="container">
+         <div class="card-panel yellow lighten-5">
+            <h2>Agregando items a la lista: Lacteos</h2>
+            <div class="row">
+               <form action="nuevoLacteo" , method="POST" , class="col s12">
+                  <div class="row">
+                     <div class="input-field col s12"><input type="text" id="articulo" name="articulo"
+                           placeholder="Leche">
+                     </div>
+                  </div><button class="btn orange waves-effect waves-light" type="submit" value="Enviar">Submit<i
+                        class="material-icons right">send</i></button><br><br>
+                  <div class="col s10 offset-s1 center-align"><a href="/" class="waves-effect waves-light btn"><i
+                           class="material-icons right">home</i>Regresar</a></div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+   <%- include ('includes/foot.ejs') %>

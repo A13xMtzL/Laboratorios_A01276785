@@ -1,0 +1,114 @@
+<%- include('includes/head.ejs') %>
+
+   <body>
+      <div class="container">
+         <div class="section">
+            <h3 class="green-text"></h3>
+            <h4 class="black-text">¡Hola!<br>Bienvenido a tu lista de compras:</h4>
+            <h6 class="black-text">(con HTML dinamico xd)</h6>
+         </div>
+
+         <!-- ------------------------------------------------ -->
+
+         <div class=" card-panel red lighten-2">
+            <h2>Frutas:</h2>
+            <div class="row">
+               <% for (let fruta of frutas) { %>
+                  <div class="col l3 m4 s12">
+                     <div class="card red lighten-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                           <img class="activator" src="https://www.frutality.es/wp-content/uploads/manzana-royal.png">
+                        </div>
+                        <div class="card-content">
+                           <span class="card-title activator grey-text text-darken-4">
+                              <%= fruta %><i class="material-icons right">more_vert</i>
+                           </span>
+                           <!-- <p><a href="#">This is a link</a></p> -->
+                        </div>
+                        <div class="card-reveal">
+                           <span class="card-title grey-text text-darken-4">
+                              <%= fruta %><i class="material-icons right">close</i>
+                           </span>
+                           <p>Here is some more information about this product that is only revealed once clicked on.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <% } %>
+
+            </div>
+            <a href="nuevaFruta" class="waves-effect waves-light btn red">Agregar item</a>
+
+         </div>
+
+         <!-- ------------------------------------------------ -->
+
+         <div class="card-panel teal lighten-4">
+            <h2>Verduras:</h2>
+            <div class="row">
+               <% for (let verdura of verduras) { %>
+                  <div class="col l3 m4 s12">
+                     <div class="card blue lighten-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                           <img class="activator" src="https://www.frutality.es/wp-content/uploads/manzana-royal.png">
+                        </div>
+                        <div class="card-content">
+                           <span class="card-title activator grey-text text-darken-4">
+                              <%= verdura %><i class="material-icons right">more_vert</i>
+                           </span>
+                           <!-- <p><a href="#">This is a link</a></p> -->
+                        </div>
+                        <div class="card-reveal">
+                           <span class="card-title grey-text text-darken-4">
+                              <%= verdura %><i class="material-icons right">close</i>
+                           </span>
+                           <p>Here is some more information about this product that is only revealed once clicked on.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <% } %>
+
+            </div>
+            <a href="nuevaVerdura" class="waves-effect waves-light btn ">Agregar item</a>
+         </div>
+
+         <!-- ------------------------------------------------ -->
+
+         <div class="card-panel orange lighten-4">
+            <h2>Lacteos:</h2>
+            <div class="row">
+               <% for (let lacteo of lacteos) { %>
+                  <div class="col l3 m4 s12">
+                     <div class="card amber lighten-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                           <img class="activator" src="https://www.frutality.es/wp-content/uploads/manzana-royal.png">
+                        </div>
+                        <div class="card-content">
+                           <span class="card-title activator grey-text text-darken-4">
+                              <%= lacteo %><i class="material-icons right">more_vert</i>
+                           </span>
+                           <!-- <p><a href="#">This is a link</a></p> -->
+                        </div>
+                        <div class="card-reveal">
+                           <span class="card-title grey-text text-darken-4">
+                              <%= lacteo %><i class="material-icons right">close</i>
+                           </span>
+                           <p>Here is some more information about this product that is only revealed once clicked on.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <% } %>
+
+            </div>
+
+            <a href="nuevoLacteo" class="waves-effect waves-light btn orange">Agregar item</a>
+         </div>
+      </div>
+
+
+   </body>
+
+   </html>
+   <%- include ('includes/foot.ejs') %>

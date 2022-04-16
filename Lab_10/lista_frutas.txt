@@ -2,3 +2,7 @@ Guayabas
 Peras
 Sandia
 Manzanas
+Guayabas
+Peras
+Sandia
+Manzanas

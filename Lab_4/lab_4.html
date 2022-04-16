@@ -2,117 +2,145 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laboratorio 4</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Laboratorio 4</title>
 </head>
 
 <body>
-  <header>
-    <nav class="teal darken-1">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo center">Laboratorio 4 </a>
-        <ul class="left hide-on-med-and-down">
-        </ul>
+   <header>
+      <nav class="teal darken-1">
+         <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center">Laboratorio 4 </a>
+            <ul class="left hide-on-med-and-down">
+            </ul>
+         </div>
+      </nav>
       </div>
-    </nav>
-    </div>
-  </header>
+   </header>
 
-  <div class="container">
-    <h1 class="blue-text">Laboratorio 4: Fundamentos de JavaScript </h1>
+   <div class="container">
+      <h1 class="blue-text">Laboratorio 4: Fundamentos de JavaScript </h1>
 
 
-    <div>
-      <p>
-        <strong>Pregunta 1:</strong>
-        Entrada: un número pedido con un prompt. Salida: Una tabla con los números del 1 al número dado con sus
-        cuadrados
-        y cubos. Utiliza document.write para producir la salida
-      </p>
-      <button id="P_1" onclick="tabla_cuadrados_cubos()">Presiona para ejecutar esta funcion</button>
+      <div>
+         <p>
+            <strong>Pregunta 1:</strong>
+            Entrada: un número pedido con un prompt. Salida: Una tabla con los números del 1 al número dado con sus
+            cuadrados
+            y cubos. Utiliza document.write para producir la salida
+         </p>
+         <button id="P_1" onclick="tabla_cuadrados_cubos()">Presiona para ejecutar esta funcion</button>
 
-      <hr>
-    </div>
-
-
-    <div id="Pregunta_2">
-      <p>
-        <strong>Pregunta 2:</strong>
-        Entrada: Usando un prompt se pide el resultado de la suma de 2 números generados de manera aleatoria. Salida: La
-        página debe indicar si el resultado fue correcto o incorrecto, y el tiempo que tardó el usuario en escribir la
-        respuesta.
-
-      </p>
-      <button id="P_2" onclick="suma_numeros()">Presiona para ejecutar esta funcion</button>
-      <hr>
-    </div>
+         <hr>
+      </div>
 
 
-    <div id="Pregunta_3">
-      <p>
-        <strong>Pregunta 3:</strong>
-        Función: contador. Parámetros: Un arreglo de números. Regresa: La cantidad de números negativos en el arreglo,
-        la
-        cantidad de 0's, y la cantidad de valores mayores a 0 en el arreglo.
+      <div id="Pregunta_2">
+         <p>
+            <strong>Pregunta 2:</strong>
+            Entrada: Usando un prompt se pide el resultado de la suma de 2 números generados de manera aleatoria.
+            Salida: La
+            página debe indicar si el resultado fue correcto o incorrecto, y el tiempo que tardó el usuario en escribir
+            la
+            respuesta.
 
-      </p>
-
-      <button id="P_3" onclick="Llamada_Contador();">Presiona para ejecutar esta funcion</button>
-      <hr>
-    </div>
-
-    <div id="Pregunta_4">
-      <p>
-        <strong>Pregunta 4:</strong>
-
-        Función: promedios. Parámetros: Un arreglo de arreglos de números. Regresa: Un arreglo con los promedios de cada
-        uno de los renglones de la matriz.
-      </p>
-      <button id="P_4" onclick="Inverso()">Presiona para ejecutar esta funcion</button>
-      <hr>
-    </div>
+         </p>
+         <button id="P_2" onclick="suma_numeros()">Presiona para ejecutar esta funcion</button>
+         <hr>
+      </div>
 
 
-    <div id="Pregunta_5">
-      <p>
-        <strong>Pregunta 5:</strong>
+      <div id="Pregunta_3">
+         <p>
+            <strong>Pregunta 3:</strong>
+            Función: contador. Parámetros: Un arreglo de números. Regresa: La cantidad de números negativos en el
+            arreglo,
+            la
+            cantidad de 0's, y la cantidad de valores mayores a 0 en el arreglo.
 
-        Función: inverso. Parámetros: Un número. Regresa: El número con sus dígitos en orden inverso.
-      </p>
-      <button id="P_5" onclick="Inverso()">Presiona para ejecutar esta funcion</button>
-      <hr>
-    </div>
+         </p>
+
+         <button id="P_3" onclick="Llamada_Contador();">Presiona para ejecutar esta funcion</button>
+         <hr>
+      </div>
+
+      <div id="Pregunta_4">
+         <p>
+            <strong>Pregunta 4:</strong>
+
+            Función: promedios. Parámetros: Un arreglo de arreglos de números. Regresa: Un arreglo con los promedios de
+            cada
+            uno de los renglones de la matriz.
+         </p>
+         <button id="P_4" onclick="Inverso()">Presiona para ejecutar esta funcion</button>
+         <hr>
+      </div>
 
 
-    <div id="Pregunta_6">
-      <p>
-        <strong>Pregunta 6:</strong>
-        Crea una solución para un problema de tu elección (puede ser algo relacionado con tus intereses, alguna
-        problemática que hayas identificado en algún ámbito, un problema de programación que hayas resuelto en otro
-        lenguaje, un problema de la ACM, entre otros). El problema debe estar descrito en un documento HTML, y la
-        solución
-        implementada en JavaScript, utilizando al menos la creación de un objeto, el objeto además de su constructor
-        deben
-        tener al menos 2 métodos. Muestra los resultados en el documento HTML.
+      <div id="Pregunta_5">
+         <p>
+            <strong>Pregunta 5:</strong>
+
+            Función: inverso. Parámetros: Un número. Regresa: El número con sus dígitos en orden inverso.
+         </p>
+         <button id="P_5" onclick="Inverso()">Presiona para ejecutar esta funcion</button>
+         <hr>
+      </div>
 
 
-      </p>
-      <!-- <button id="P_6" onclick="Inverso()">Presiona para ejecutar esta funcion</button> -->
-      <hr>
-    </div>
-  </div>
+      <div id="Pregunta_6">
+         <p>
+            <strong>Pregunta 6:</strong>
+            Crea una solución para un problema de tu elección (puede ser algo relacionado con tus intereses, alguna
+            problemática que hayas identificado en algún ámbito, un problema de programación que hayas resuelto en otro
+            lenguaje, un problema de la ACM, entre otros). El problema debe estar descrito en un documento HTML, y la
+            solución
+            implementada en JavaScript, utilizando al menos la creación de un objeto, el objeto además de su constructor
+            deben
+            tener al menos 2 métodos. Muestra los resultados en el documento HTML.
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="lab_4.js"></script>
+
+         </p>
+         <!-- <button id="P_6" onclick="Inverso()">Presiona para ejecutar esta funcion</button> -->
+         <hr> <br> <br>
+      </div>
+
+
+      <section id="Preguntas_Lab">
+
+      </section>
+
+      <section id="Fuentes">
+         <h3 class="deep-orange-text">Fuentes Consultadas:</h3>
+
+         <p>
+         <ul>
+            <li> 500 Error Interno del Servidor - HTTP | MDN. (2022, 19 febrero). DeveloperMozilla.Org. Recuperado 17 de
+               febrero de 2022, de <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Status/500"
+                  target="_blank">DeveloperMozilla</a><br>
+            </li>
+         </ul>
+
+         </p>
+
+   </div>
+
+
+
+
+   </section>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="lab_4.js"></script>
 
 </body>
 
