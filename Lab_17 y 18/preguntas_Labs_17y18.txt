@@ -1,0 +1,27 @@
+Preguntas para Laboratorio 17 y 18
+
+Lab 17: Interacción con la base de datos
+•	¿Qué ventajas tiene escribir el código SQL únicamente en la capa del modelo?
+En mi opinión permite tener un mejor control de los datos que los pasamos a nuestros controladores, de igual forma permite que podamos agregar y modificar las consultas de una forma más fácil.
+
+•	¿Qué es SQL injection y cómo se puede prevenir?
+SQL Injection es un tipo de ataque de inyección que permite ejecutar sentencias SQL maliciosas. Estas declaraciones controlan un servidor de base de datos detrás de una aplicación web.
+	Algunos consejos para poder prevenirlos son:
+	Formar y mantener la conciencia
+	No confiar en ninguna entrada del usuario
+	Adoptar las últimas tecnologías
+	Emplear mecanismos verificados
+
+
+Lab 18: Autentificación
+•	¿Qué otras formas de autentificación existen?
+Autenticación de tokens
+Autenticación de contraseña
+Autenticación biométrica
+Escáneres de huellas dactilares
+Autenticación multifactor
+
+Fuentes Consultadas:
+Vekua, U. (2021, 5 julio). A Guide to the Types of Authentication Methods. Veriff. Recuperado 4 de mayo de 2022, de https://www.veriff.com/blog/types-of-authentication-methodsWhat is SQL 
+Injection (SQLi) and How to Prevent Attacks. (2020, 10 septiembre). Acunetix. Recuperado 4 de mayo de 2022, de https://www.acunetix.com/websitesecurity/sql-injection/
+
